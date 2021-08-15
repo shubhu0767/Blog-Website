@@ -1,0 +1,221 @@
+body{
+    margin: 0%;
+}
+
+#F-section {
+    
+    background: url(/Projects.HTML/pexels-bess-hamiti-36764.jpg);
+    background-size: 100%;
+    padding: 16px;
+    padding-bottom: 22vh;
+    
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 40px;
+    height: 50px;
+    margin-top: 60px;
+    background-color: rgb(59, 90, 94);
+}
+
+header div {
+    display: flex;
+}
+
+#logo {
+    position: relative;
+    top: -5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-left: 30px;
+    color: white;
+}
+
+.top-btn {
+    padding: 16px;
+    
+    text-decoration: none;
+    color: white;
+}
+
+.top-btn:hover {
+    cursor: pointer;
+    background-color: rgb(82, 152, 173);
+}
+
+section {
+    margin-top: 20vh;
+
+}
+
+.top-line {
+    font-size: 80px;
+    font-family: 'Satisfy', cursive;
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+
+section div p {
+    width: 50vw;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+section div button {
+    margin-right: 15px;
+    margin-top: 10vh;
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 16px;
+}
+
+section div button:hover {
+    background-color: rgb(91, 126, 139);
+    color: rgb(26, 17, 17);
+    border: skyblue;
+}
+
+.info{
+    background-color: rgb(186, 214, 224);
+    margin-top: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.se-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.se-info h5{
+    margin: 0;
+}
+
+.se-info h2{
+    margin: 0;
+}
+
+.th-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.th-info div{
+    border: 3px solid rgb(91, 126, 139);
+    width: 400px;
+    word-wrap:normal;  
+}
+
+.th-info div p{
+    width: 400px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.th-info div a{
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.th-info div h3{
+    margin-left: 10px;
+}
+
+.headings{
+    background: url(/Projects.HTML/pexels-sohail-na-807598.jpg);
+    padding-bottom: 50px;
+
+}
+
+ol{
+    display: flex;
+    justify-content:space-evenly;
+    width: 50vw;
+}
+
+li{
+    margin-top: 30px;
+    font: 20px bolder;
+}
+
+.data{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.data h3{
+    margin-left: 30px;
+    font: xx-large;
+    font-size: 30px;
+}
+
+.data p{
+    margin-left: 30px;
+}
+
+.data img{
+    height: 470px;
+    width: 550px;
+    float: right;
+    margin-right: 30px;
+}
+
+.odio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.admin-name{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 40px;
+}
+
+.image{
+    background: grey;
+    width: 20vw;
+    height: 30vh;
+}
+.admin{
+    text-decoration: none;
+    margin-top: 200px;
+    color: navy;
+    padding-right: 10px;
+    /* padding-top: 20px; */
+    border-right: 1px solid grey;
+}
+
+.admin-info h3{
+    margin-bottom: 30px;
+}
+.admin-info p{
+    font-family: arial;
+    width: 21vw;
+}
+
+.top-icon{
+    /* font-size: 200px; */
+    width: 5px;
+    height: 100px;
+    background-color: black;
+}
